@@ -1,0 +1,167 @@
+p,h1,h2,h3,h4,h5,span,div,section,small,table,tr,td{
+    font-family:'/*SetSiteFont*/';
+}
+#menu > li{
+    max-width: 15rem;
+}
+.customlogo{
+    width:2rem;
+    height:2rem;
+}
+.red{
+    color:#ff7575;
+}
+.tagarea_cover{
+    background: #fff;
+}
+.tagarea_cover{
+    opacity: 0.75;
+}
+.tagarea_cover{
+    transform: scale(1.0);
+}
+a:hover{
+    text-decoration: none;
+}
+.tagarea > div > ul{
+    bottom: 1.5rem;
+}
+.gmenueinner > h5{
+    z-index: 1;
+}
+.cursor{
+    cursor: pointer;
+}
+.gmenueinner > h5{
+    overflow: hidden;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.large_midashi:before{
+    content: "|";
+    color: #ff7575;
+    font-weight: bold;
+}
+.tagarea_cover{
+    transition: all 0.5s;
+}
+li{
+    list-style: none;
+}
+#menu{
+    justify-content:flex-end;
+}
+.sidebarclose{
+    left:-2rem;
+    opacity:0;
+}
+.sidebaropen{
+    left:0;
+    opacity: 1;
+}
+.sidebarclose,
+.sidebaropen{
+    transition:all 0.5s;
+}
+#sidebar{
+    top:0;
+    height:100vh;
+}
+#sidebarbutton{
+    z-index: 4;
+}
+.zm2{
+    z-index: -2;
+}
+.z0{
+    z-index: 0;
+}
+.z2{
+    z-index: 2;
+}
+.z3{
+    z-index: 3;
+}
+#sidebar ul[id^="menu-"]{
+    padding-top:6rem;
+}
+/*CssNolimit*/
+
+@media screen and (min-width: 1200px){
+    /*CssMin1200*/
+}
+@media screen and (min-width: 981px){
+    /*CssMin981*/
+}
+@media screen and (min-width: 768px){
+    /*CssMin768*/
+    .gmenueinner{
+        display: flex;
+    }
+    .padding-inline-0{
+        padding-inline-start: 0;
+    }
+    #footer ul > li{
+        width:calc(100% / 3);
+    }
+}
+@media screen and (max-width: 981px){
+    /*CssMax981*/
+    #hbuttoncover,
+    #hbuttonwrapper{
+        right: 0;
+        top: 0;
+        width: 34px;
+        height: 34px;
+    }
+    #hbuttoncover{
+        z-index: 1;
+    }
+    #hbuttonwrapper{
+        z-index: 0;
+    }
+    #hbmenuwraapper ul[id^="menu"]{
+        padding-top:6rem;
+    }
+}
+@media (min-width: 401px) and (max-width: 980px){
+    /*CssMin401to980*/
+    #footer ul > li{
+        width:100%;
+    }
+    .customlogo{
+        padding:3px;
+    }
+    .gmenueinner > h5 > a{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        padding: 1em;
+    }
+    .gmenueinner > h5{
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+    .gmenueinner > h5 > a{
+        top: 3em;
+        transition: all 0.3s;
+    }
+    .gmenueinner > h5 > .gnavinnershow{
+        top: 0;
+        transition: all 0.3s;
+    }
+    .gmenueinner > h5 > a{
+        background: linear-gradient(332deg, #345374, #142e45);
+        background-size: 400% 400%;
+        -webkit-animation: AnimationName 13s ease infinite;
+        -moz-animation: AnimationName 13s ease infinite;
+        animation: AnimationName 13s ease infinite;
+    }
+}
+@media screen and (max-width: 768px){
+    /*CssMax768*/
+}
+@media screen and (max-width: 400px){
+    /*CssMax400*/
+}

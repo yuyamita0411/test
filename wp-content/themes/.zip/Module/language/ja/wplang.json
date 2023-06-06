@@ -1,0 +1,1479 @@
+{
+    "$comment": [
+        "日本"
+    ],
+    "vals":{
+        "CustomizeMainColumnCategoryArticle": {
+            "CatADSection" : {
+                "title" : "関連記事一覧のデザインを変更する"
+            },
+            "CatADControll" : {
+                "label" : "PCデザインを選択する"
+            },
+            "CatADSPControll" : {
+                "label" : "SPデザインを選択する"
+            },
+            "CatATDControll" : {
+                "label" : "カテゴリーリンクのデザインを選択する",
+                "choices":{
+                    "pt1":"パターン1",
+                    "pt2":"パターン2",
+                    "pt3":"パターン3",
+                    "none":"非表示"
+                }
+            },
+            "CatAWBRControll" : {
+                "label" : "枠線の丸みを設定する"
+            },
+            "CatACBRControll" : {
+                "label" : "コンテンツの丸みを設定する"
+            },
+            "CatAThBDControll" : {
+                "label" : "サムネイル画像の線",
+                "choices":{
+                    "true":"あり",
+                    "false":"なし"
+                }
+            },
+            "CatABgImgsection" : {
+                "title" : "関連記事一覧の背景画像を設定する"
+            },
+            "CatABgImgcontroll" : {
+                "label" : "背景画像を設定する。*背景画像を設定した場合、背景画像が優先されます。画像ではなく、背景色を優先したい場合は背景画像を設定しないでください。"
+            },
+            "CatABgImgStcontroll" : {
+                "label" : "背景画像のリピート",
+                "choices": {
+                    "backgroundrepeat":"リピートする",
+                    "backgroundnorepeat":"リピートしない"
+                }
+            },
+            "CatALNSection" : {
+                "title" : "関連記事の表示数、タイトル(上)、(下)、余白の設定"
+            },
+            "CatALNControll" : {
+                "label" : "表示する関連記事の数を選択する"
+            },
+            "CatATTControll" : {
+                "label" : "見出しタイトル(上)を編集する"
+            },
+            "CatATTDControll" : {
+                "label" : "見出しタイトル(上)の文字方向を選択する",
+                "choices": {
+                    "center":"中央寄せ",
+                    "right":"右寄せ",
+                    "left":"左寄せ"
+                }
+            },
+            "CatATTFsControll" : {
+                "label" : "見出しタイトル(上)のフォントサイズを選択する"
+            },
+            "CatATTFwControll" : {
+                "label" : "見出しタイトル(上)のフォントの太さを選択する",
+                "choices": {
+                    "normal":"細く",
+                    "bold":"太く"
+                }
+            },
+            "CatATTAnControll" : {
+                "label" : "見出しタイトル(上)のアニメーションを選択する"
+            },
+            "CatABTControll" : {
+                "label" : "見出しタイトル(下)を編集する"
+            },
+            "CatABTFsControll" : {
+                "label" : "見出しタイトル(下)のフォントサイズを選択する"
+            },
+            "CatABTFwControll" : {
+                "label" : "見出しタイトル(下)のフォントの太さを選択する",
+                "choices":{
+                    "normal":"細く",
+                    "bold":"太く"
+                }
+            },
+            "CatABTDControll" : {
+                "label" : "見出しタイトル(下)の文字方向を選択する",
+                "choices":{
+                    "center":"中央寄せ",
+                    "right":"右寄せ",
+                    "left":"左寄せ"
+                }
+            },
+            "CatABTAnControll" : {
+                "label" : "見出しタイトル(下)のアニメーションを選択する"
+            },
+            "CatATBgSection" : {
+                "title" : "関連記事一覧の色の調整"
+            },
+            "CatATBgControll" : {
+                "label" : "見出しの背景色を変更する"
+            },
+            "CatATCControll" : {
+                "label" : "見出しの文字色を変更する"
+            },
+            "CatABgControll" : {
+                "label" : "背景色を変更する"
+            },
+            "CatAEBgControll" : {
+                "label" : "それぞれの背景色を変更する"
+            },
+            "CatACDCControll" : {
+                "label" : "日付の文字色を変更する"
+            },
+            "CatAPTCControll" : {
+                "label" : "タイトルの文字色を変更する"
+            },
+            "CatAThBCControll" : {
+                "label" : "サムネイル画像の枠線の色を調整する"
+            },
+            "CatAAnSection" : {
+                "title" : "関連記事一覧のコンテンツのアニメーションを選択する"
+            },
+            "CatAAnControll" : {
+                "label" : "関連記事一覧のコンテンツのアニメーションを選択する"
+            },
+            "CatAShdSection" : {
+                "title" : "関連記事一覧 影の設定"
+            },
+            "CatAShdControll" : {
+                "label" : "外枠の影のあり、なしを選択する",
+                "choices" :{
+                    "false" :"なし",
+                    "true" :"あり"
+                }
+            },
+            "CatAShdLvControll" : {
+                "label" : "外枠の影の影の明さを選択する"
+            },
+            "CatAShdInControll" : {
+                "label" : "コンテンツの影のあり、なしを選択する",
+                "choices" :{
+                    "false" :"なし",
+                    "true" :"あり"
+                }
+            },
+            "CatAShdLvInControll" : {
+                "label" : "コンテンツの影の影の明さを選択する"
+            }
+        },
+        "CustomizeMainColumnNewestArticleArea": {
+            "NArADSection" : {
+                "title" : "最新記事一覧のデザインを変更する"
+            },
+            "NArADControll" : {
+                "label" : "PCデザインを選択する"
+            },
+            "NArADSPControll" : {
+                "label" : "SPデザインを選択する"
+            },
+            "NArATDControll" : {
+                "label" : "カテゴリーリンクのデザインを選択する",
+                "choices":{
+                    "pt1":"パターン1",
+                    "pt2":"パターン2",
+                    "pt3":"パターン3",
+                    "none":"非表示"
+                }
+            },
+            "NArAWBRControll" : {
+                "label" : "枠線の丸みを設定する"
+            },
+            "NArACBRControll" : {
+                "label" : "コンテンツの丸みを設定する"
+            },
+            "NArAThBDControll" : {
+                "label" : "サムネイル画像の線",
+                "choices":{
+                    "true":"あり",
+                    "false":"なし"
+                }
+            },
+            "NArABgImgsection" : {
+                "title" : "最新記事一覧の背景画像を設定する"
+            },
+            "NArABgImgcontroll" : {
+                "label" : "背景画像を設定する。*背景画像を設定した場合、背景画像が優先されます。画像ではなく、背景色を優先したい場合は背景画像を設定しないでください。"
+            },
+            "NArABgImgStcontroll" : {
+                "label" : "背景画像のリピート",
+                "choices": {
+                    "backgroundrepeat":"リピートする",
+                    "backgroundnorepeat":"リピートしない"
+                }
+            },
+            "NArALNSection" : {
+                "title" : "最新記事の表示数、タイトル(上)、(下)、余白の設定"
+            },
+            "NArALNControll" : {
+                "label" : "表示する最新記事の数を選択する"
+            },
+            "NArATTControll" : {
+                "label" : "見出しタイトル(上)を編集する"
+            },
+            "NArATTDControll" : {
+                "label" : "見出しタイトル(上)の文字方向を選択する",
+                "choices": {
+                    "center":"中央寄せ",
+                    "right":"右寄せ",
+                    "left":"左寄せ"
+                }
+            },
+            "NArATTFsControll" : {
+                "label" : "見出しタイトル(上)のフォントサイズを選択する"
+            },
+            "NArATTFwControll" : {
+                "label" : "見出しタイトル(上)のフォントの太さを選択する",
+                "choices": {
+                    "normal":"細く",
+                    "bold":"太く"
+                }
+            },
+            "NArATTAnControll" : {
+                "label" : "見出しタイトル(上)のアニメーションを選択する"
+            },
+            "NArABTControll" : {
+                "label" : "見出しタイトル(下)を編集する"
+            },
+            "NArABTFsControll" : {
+                "label" : "見出しタイトル(下)のフォントサイズを選択する"
+            },
+            "NArABTFwControll" : {
+                "label" : "見出しタイトル(下)のフォントの太さを選択する",
+                "choices":{
+                    "normal":"細く",
+                    "bold":"太く"
+                }
+            },
+            "NArABTDControll" : {
+                "label" : "見出しタイトル(下)の文字方向を選択する",
+                "choices":{
+                    "center":"中央寄せ",
+                    "right":"右寄せ",
+                    "left":"左寄せ"
+                }
+            },
+            "NArABTAnControll" : {
+                "label" : "見出しタイトル(下)のアニメーションを選択する"
+            },
+            "NArATBgSection" : {
+                "title" : "最新記事一覧の色の調整"
+            },
+            "NArATBgControll" : {
+                "label" : "見出しの背景色を変更する"
+            },
+            "NArATCControll" : {
+                "label" : "見出しの文字色を変更する"
+            },
+            "NArABgControll" : {
+                "label" : "背景色を変更する"
+            },
+            "NArAEBgControll" : {
+                "label" : "それぞれの背景色を変更する"
+            },
+            "NArACDCControll" : {
+                "label" : "日付の文字色を変更する"
+            },
+            "NArAPTCControll" : {
+                "label" : "タイトルの文字色を変更する"
+            },
+            "NArAThBCControll" : {
+                "label" : "サムネイル画像の枠線の色を調整する"
+            },
+            "NArAAnSection" : {
+                "title" : "最新記事一覧のコンテンツのアニメーションを選択する"
+            },
+            "NArAAnControll" : {
+                "label" : "最新記事一覧のコンテンツのアニメーションを選択する"
+            },
+            "NArAShdSection" : {
+                "title" : "最新記事一覧 影の設定"
+            },
+            "NArAShdControll" : {
+                "label" : "外枠の影のあり、なしを選択する",
+                "choices" :{
+                    "false" :"なし",
+                    "true" :"あり"
+                }
+            },
+            "NArAShdLvControll" : {
+                "label" : "外枠の影の影の明さを選択する"
+            },
+            "NArAShdInControll" : {
+                "label" : "コンテンツの影のあり、なしを選択する",
+                "choices" :{
+                    "false" :"なし",
+                    "true" :"あり"
+                }
+            },
+            "NArAShdLvInControll" : {
+                "label" : "コンテンツの影の影の明さを選択する"
+            }
+        },
+        "CustomizeMainColumnPopularArticleArea": {
+            "PArDSection" : {
+                "title" : "人気記事一覧のデザインを変更する"
+            },
+            "PArDControll" : {
+                "label" : "PCデザインを選択する"
+            },
+            "PArDSPControll" : {
+                "label" : "SPデザインを選択する"
+            },
+            "PArTDControll" : {
+                "label" : "カテゴリーリンクのデザインを選択する",
+                "choices":{
+                    "pt1":"パターン1",
+                    "pt2":"パターン2",
+                    "pt3":"パターン3",
+                    "none":"非表示"
+                }
+            },
+            "PArWBRControll" : {
+                "label" : "枠線の丸みを設定する"
+            },
+            "PArCBRControll" : {
+                "label" : "コンテンツの丸みを設定する"
+            },
+            "PArThBDControll" : {
+                "label" : "サムネイル画像の線",
+                "choices":{
+                    "true":"あり",
+                    "false":"なし"
+                }
+            },
+            "PArBgImgsection" : {
+                "title" : "人気記事一覧の背景画像を設定する"
+            },
+            "PArBgImgcontroll" : {
+                "label" : "背景画像を設定する。*背景画像を設定した場合、背景画像が優先されます。画像ではなく、背景色を優先したい場合は背景画像を設定しないでください。"
+            },
+            "PArBgImgStcontroll" : {
+                "label" : "背景画像のリピート",
+                "choices": {
+                    "backgroundrepeat":"リピートする",
+                    "backgroundnorepeat":"リピートしない"
+                }
+            },
+            "PArLNSection" : {
+                "title" : "人気記事の表示数、タイトル(上)、(下)、余白の設定"
+            },
+            "PArLNControll" : {
+                "label" : "表示する人気記事の数を選択する"
+            },
+            "PArTTControll" : {
+                "label" : "見出しタイトル(上)を編集する"
+            },
+            "PArTTDControll" : {
+                "label" : "見出しタイトル(上)の文字方向を選択する",
+                "choices": {
+                    "center":"中央寄せ",
+                    "right":"右寄せ",
+                    "left":"左寄せ"
+                }
+            },
+            "PArTTFsControll" : {
+                "label" : "見出しタイトル(上)のフォントサイズを選択する"
+            },
+            "PArTTFwControll" : {
+                "label" : "見出しタイトル(上)のフォントの太さを選択する",
+                "choices": {
+                    "normal":"細く",
+                    "bold":"太く"
+                }
+            },
+            "PArTTAnControll" : {
+                "label" : "見出しタイトル(上)のアニメーションを選択する"
+            },
+            "PArBTControll" : {
+                "label" : "見出しタイトル(下)を編集する"
+            },
+            "PArBTFsControll" : {
+                "label" : "見出しタイトル(下)のフォントサイズを選択する"
+            },
+            "PArBTFwControll" : {
+                "label" : "見出しタイトル(下)のフォントの太さを選択する",
+                "choices":{
+                    "normal":"細く",
+                    "bold":"太く"
+                }
+            },
+            "PArBTDControll" : {
+                "label" : "見出しタイトル(下)の文字方向を選択する",
+                "choices":{
+                    "center":"中央寄せ",
+                    "right":"右寄せ",
+                    "left":"左寄せ"
+                }
+            },
+            "PArBTAnControll" : {
+                "label" : "見出しタイトル(下)のアニメーションを選択する"
+            },
+            "PArTBgSection" : {
+                "title" : "人気記事一覧の色の調整"
+            },
+            "PArTBgControll" : {
+                "label" : "見出しの背景色を変更する"
+            },
+            "PArTCControll" : {
+                "label" : "見出しの文字色を変更する"
+            },
+            "PArBgControll" : {
+                "label" : "背景色を変更する"
+            },
+            "PArEBgControll" : {
+                "label" : "それぞれの背景色を変更する"
+            },
+            "PArCDCControll" : {
+                "label" : "日付の文字色を変更する"
+            },
+            "PArPTCControll" : {
+                "label" : "タイトルの文字色を変更する"
+            },
+            "PArThBCControll" : {
+                "label" : "サムネイル画像の枠線の色を調整する"
+            },
+            "PArAnSection" : {
+                "title" : "人気記事一覧のコンテンツのアニメーションを選択する"
+            },
+            "PArAnControll" : {
+                "label" : "人気記事一覧のコンテンツのアニメーションを選択する"
+            },
+            "PArShdSection" : {
+                "title" : "人気記事一覧 影の設定"
+            },
+            "PArShdControll" : {
+                "label" : "外枠の影のあり、なしを選択する",
+                "choices" :{
+                    "false" :"なし",
+                    "true" :"あり"
+                }
+            },
+            "PArShdLvControll" : {
+                "label" : "外枠の影の影の明さを選択する"
+            },
+            "PArShdInControll" : {
+                "label" : "コンテンツの影のあり、なしを選択する",
+                "choices" :{
+                    "false" :"なし",
+                    "true" :"あり"
+                }
+            },
+            "PArShdLvInControll" : {
+                "label" : "コンテンツの影の影の明さを選択する"
+            }
+        },
+        "CustomizeMainColumnCategoryLink": {
+            "CatLDSection" : {
+                "title" : "カテゴリ一覧のカテゴリーリンクのデザインを変更する"
+            },
+            "CatLDControll" : {
+                "label" : "デザインを選択する",
+                "choices":{
+                    "pt1":"パターン1",
+                    "pt2":"パターン2",
+                    "pt3":"パターン3",
+                    "none":"非表示"
+                }
+            },
+            "CatLTTSection" : {
+                "title" : "カテゴリ一覧の見出しタイトル(上)(下)の修正"
+            },
+            "CatLTTControll" : {
+                "label" : "見出しタイトル(上)を編集する"
+            },
+            "CatLTTDControll" : {
+                "label" : "見出しタイトル(上)の文字方向を選択する",
+                "choices":{
+                    "center":"中央寄せ",
+                    "right":"右寄せ",
+                    "left":"左寄せ"
+                }
+            },
+            "CatLTTFsControll" : {
+                "label" : "見出しタイトル(上)のフォントサイズを選択する"
+            },
+            "CatLTTAnControll" : {
+                "label" : "見出しタイトル(上)のアニメーションを選択する"
+            },
+            "CatLBTControll" : {
+                "label" : "見出しタイトル(下)を編集する"
+            },
+            "CatLBTDControll" : {
+                "label" : "見出しタイトル(下)の文字方向を選択する",
+                "choices":{
+                    "center":"中央寄せ",
+                    "right":"右寄せ",
+                    "left":"左寄せ"
+                }
+            },
+            "CatLBTFsControll" : {
+                "label" : "見出しタイトル(下)のフォントサイズを選択する"
+            },
+            "CatLBTAnControll" : {
+                "label" : "見出しタイトル(下)のアニメーションを選択する"
+            },
+            "CatLBgImgsection" : {
+                "title" : "カテゴリ一覧の背景画像を設定する"
+            },
+            "CatLBgImgcontroll" : {
+                "label" : "背景画像を設定する。*背景画像を設定した場合、背景画像が優先されます。画像ではなく、背景色を優先したい場合は背景画像を設定しないでください。"
+            },
+            "CatLBgImgStcontroll" : {
+                "label" : "背景画像のリピート",
+                "choices": {
+                    "backgroundrepeat":"リピートする",
+                    "backgroundnorepeat":"リピートしない"
+                }
+            },
+            "CatLTBgSection" : {
+                "title" : "カテゴリ一覧の色の調整"
+            },
+            "CatLTBgControll" : {
+                "label" : "見出しの背景色を変更する"
+            },
+            "CatLTCControll" : {
+                "label" : "見出しの文字色を変更する"
+            },
+            "CatLBgControll" : {
+                "label" : "背景色を変更する"
+            },
+            "CatLAnSection" : {
+                "title" : "カテゴリ一覧のコンテンツのアニメーションを選択する"
+            },
+            "CatLAnControll" : {
+                "label" : "コンテンツのアニメーションを選択する"
+            }
+        },
+        "CustomizeSideColumnCategoryArticle": {
+            "SCCatArADSection" : {
+                "title" : "関連記事一覧のデザインを変更する"
+            },
+            "SCCatArADControll" : {
+                "label" : "PCデザインを選択する"
+            },
+            "SCCatArADSPControll" : {
+                "label" : "SPデザインを選択する"
+            },
+            "SCCatArATDControll" : {
+                "label" : "カテゴリーリンクのデザインを選択する",
+                "choices":{
+                    "pt1":"パターン1",
+                    "pt2":"パターン2",
+                    "pt3":"パターン3",
+                    "none":"非表示"
+                }
+            },
+            "SCCatArAWBRControll" : {
+                "label" : "枠線の丸みを設定する"
+            },
+            "SCCatArACBRControll" : {
+                "label" : "コンテンツの丸みを設定する"
+            },
+            "SCCatArAThBDControll" : {
+                "label" : "サムネイル画像の線",
+                "choices":{
+                    "true":"あり",
+                    "false":"なし"
+                }
+            },
+            "SCCatArALNSection" : {
+                "title" : "関連記事一覧の表示数、タイトル(上)、(下)、コンテンツの余白設定"
+            },
+            "SCCatArALNControll" : {
+                "label" : "表示する記事の数を選択する"
+            },
+            "SCCatArATTControll" : {
+                "label" : "見出しタイトル(上)を編集する"
+            },
+            "SCCatArATTDControll" : {
+                "label" : "見出しタイトル(上)の文字方向を選択する",
+                "choices":{
+                    "center":"中央寄せ",
+                    "right":"右寄せ",
+                    "left":"左寄せ"
+                }
+            },
+            "SCCatArATTFsControll" : {
+                "label" : "見出しタイトル(上)のフォントサイズを選択する"
+            },
+            "SCCatArATTAnControll" : {
+                "label" : "見出しタイトル(上)のアニメーションを選択する"
+            },
+            "SCCatArABTControll" : {
+                "label" : "見出しタイトル(下)を編集する"
+            },
+            "SCCatArABTFsControll" : {
+                "label" : "見出しタイトル(下)のフォントサイズを選択する"
+            },
+            "SCCatArABTDControll" : {
+                "label" : "見出しタイトル(下)の文字方向を選択する",
+                "choices":{
+                    "center":"中央寄せ",
+                    "right":"右寄せ",
+                    "left":"左寄せ"
+                }
+            },
+            "SCCatArABTAnControll" : {
+                "label" : "見出しタイトル(下)のアニメーションを選択する"
+            },
+            "SCCatArABgImgsection" : {
+                "title" : "関連記事一覧の背景画像を設定する"
+            },
+            "SCCatArABgImgcontroll" : {
+                "label" : "背景画像を設定する。*背景画像を設定した場合、背景画像が優先されます。画像ではなく、背景色を優先したい場合は背景画像を設定しないでください。"
+            },
+            "SCCatArABgImgStcontroll" : {
+                "label" : "背景画像のリピート",
+                "choices":{
+                    "backgroundrepeat":"リピートする",
+                    "backgroundnorepeat":"リピートしない"
+                }
+            },
+            "SCCatArATBgSection" : {
+                "title" : "関連記事一覧の色の調整"
+            },
+            "SCCatArATBgControll" : {
+                "label" : "見出しの背景色を変更する"
+            },
+            "SCCatArATCControll" : {
+                "label" : "見出しの文字色を変更する"
+            },
+            "SCCatArABgControll" : {
+                "label" : "背景色を変更する"
+            },
+            "SCCatArAEBgControll" : {
+                "label" : "それぞれの背景色を変更する"
+            },
+            "SCCatArADCControll" : {
+                "label" : "日付の文字色を変更する"
+            },
+            "SCCatArAPCControll" : {
+                "label" : "タイトルの文字色を変更する"
+            },
+            "SCCatArAThBCControll" : {
+                "label" : "サムネイル画像の枠線の色を調整する"
+            },
+            "SCCatArAShdSection" : {
+                "title" : "関連記事一覧 影の設定"
+            },
+            "SCCatArAShdControll" : {
+                "label" : "タイトルの影のあり、なしを選択する",
+                "choices":{
+                    "false":"あり",
+                    "true":"なし"
+                }
+            },
+            "SCCatArAShdLvControll" : {
+                "label" : "タイトルの影の影の明さを選択する"
+            },
+            "SCCatArAShdInControll" : {
+                "label" : "コンテンツの影のあり、なしを選択する",
+                "choices":{
+                    "false":"あり",
+                    "true":"なし"
+                }
+            },
+            "SCCatArAShdLvInControll" : {
+                "label" : "コンテンツの影の影の明さを選択する"
+            }
+        },
+        "CustomizeSideColumnNewestArticleArea": {
+            "SCNArADSection" : {
+                "title" : "最新記事一覧のデザインを変更する"
+            },
+            "SCNArADControll" : {
+                "label" : "PCデザインを選択する"
+            },
+            "SCNArADSPControll" : {
+                "label" : "SPデザインを選択する"
+            },
+            "SCNArATDControll" : {
+                "label" : "カテゴリーリンクのデザインを選択する",
+                "choices":{
+                    "pt1":"パターン1",
+                    "pt2":"パターン2",
+                    "pt3":"パターン3",
+                    "none":"非表示"
+                }
+            },
+            "SCNArAWBRControll" : {
+                "label" : "枠線の丸みを設定する"
+            },
+            "SCNArACBRControll" : {
+                "label" : "コンテンツの丸みを設定する"
+            },
+            "SCNArAThBDControll" : {
+                "label" : "サムネイル画像の線",
+                "choices":{
+                    "true":"あり",
+                    "false":"なし"
+                }
+            },
+            "SCNArALNSection" : {
+                "title" : "最新記事一覧の表示数、タイトル(上)、(下)、コンテンツの余白の設定"
+            },
+            "SCNArALNControll" : {
+                "label" : "表示する記事の数を選択する"
+            },
+            "SCNArATTControll" : {
+                "label" : "見出しタイトル(上)を編集する"
+            },
+            "SCNArATTDControll" : {
+                "label" : "見出しタイトル(上)の文字方向を選択する",
+                "choices":{
+                    "center":"中央寄せ",
+                    "right":"右寄せ",
+                    "left":"左寄せ"
+                }
+            },
+            "SCNArATTFsControll" : {
+                "label" : "見出しタイトル(上)のフォントサイズを選択する"
+            },
+            "SCNArATTAnControll" : {
+                "label" : "見出しタイトル(上)のアニメーションを選択する"
+            },
+            "SCNArABTControll" : {
+                "label" : "見出しタイトル(下)を編集する"
+            },
+            "SCNArABTFsControll" : {
+                "label" : "見出しタイトル(下)のフォントサイズを選択する"
+            },
+            "SCNArABTDControll" : {
+                "label" : "見出しタイトル(下)の文字方向を選択する",
+                "choices":{
+                    "center":"中央寄せ",
+                    "right":"右寄せ",
+                    "left":"左寄せ"
+                }
+            },
+            "SCNArABTAnControll" : {
+                "label" : "見出しタイトル(下)のアニメーションを選択する"
+            },
+            "SCNArABgImgsection" : {
+                "title" : "最新記事一覧の背景画像を設定する"
+            },
+            "SCNArABgImgcontroll" : {
+                "label" : "背景画像を設定する。*背景画像を設定した場合、背景画像が優先されます。画像ではなく、背景色を優先したい場合は背景画像を設定しないでください。"
+            },
+            "SCNArABgImgStcontroll" : {
+                "label" : "背景画像のリピート",
+                "choices":{
+                    "backgroundrepeat":"リピートする",
+                    "backgroundnorepeat":"リピートしない"
+                }
+            },
+            "SCNArATBgSection" : {
+                "title" : "最新記事一覧の色の調整"
+            },
+            "SCNArATBgControll" : {
+                "label" : "見出しの背景色を変更する"
+            },
+            "SCNArATCControll" : {
+                "label" : "見出しの文字色を変更する"
+            },
+            "SCNArABgControll" : {
+                "label" : "背景色を変更する"
+            },
+            "SCNArAEBgControll" : {
+                "label" : "それぞれの背景色を変更する"
+            },
+            "SCNArADCControll" : {
+                "label" : "日付の文字色を変更する"
+            },
+            "SCNArAPCControll" : {
+                "label" : "タイトルの文字色を変更する"
+            },
+            "SCNArAThBCControll" : {
+                "label" : "サムネイル画像の枠線の色を調整する"
+            },
+            "SCNArAShdSection" : {
+                "title" : "最新記事一覧 影の設定"
+            },
+            "SCNArAShdControll" : {
+                "label" : "タイトルの影のあり、なしを選択する",
+                "choices":{
+                    "false":"あり",
+                    "true":"なし"
+                }
+            },
+            "SCNArAShdLvControll" : {
+                "label" : "タイトルの影の影の明さを選択する"
+            },
+            "SCNArAShdInControll" : {
+                "label" : "コンテンツの影のあり、なしを選択する",
+                "choices":{
+                    "false":"あり",
+                    "true":"なし"
+                }
+            },
+            "SCNArAShdLvInControll" : {
+                "label" : "コンテンツの影の影の明さを選択する"
+            }
+        },
+        "CustomizeSideColumnPopularArticleArea": {
+            "SCFArADSection" : {
+                "title" : "人気記事一覧のデザインを変更する"
+            },
+            "SCFArADControll" : {
+                "label" : "PCデザインを選択する"
+            },
+            "SCFArADSPControll" : {
+                "label" : "SPデザインを選択する"
+            },
+            "SCFArATDControll" : {
+                "label" : "カテゴリーリンクのデザインを選択する",
+                "choices":{
+                    "pt1":"パターン1",
+                    "pt2":"パターン2",
+                    "pt3":"パターン3",
+                    "none":"非表示"
+                }
+            },
+            "SCFArAWBRControll" : {
+                "label" : "枠線の丸みを設定する"
+            },
+            "SCFArACBRControll" : {
+                "label" : "コンテンツの丸みを設定する"
+            },
+            "SCFArAThBDControll" : {
+                "label" : "サムネイル画像の線",
+                "choices":{
+                    "true":"あり",
+                    "false":"なし"
+                }
+            },
+            "SCFArALNSection" : {
+                "title" : "人気記事一覧の表示数、タイトル(上)、(下)、コンテンツの余白の設定"
+            },
+            "SCFArALNControll" : {
+                "label" : "表示する記事の数を選択する"
+            },
+            "SCFArATTControll" : {
+                "label" : "見出しタイトル(上)を編集する"
+            },
+            "SCFArATTDControll" : {
+                "label" : "見出しタイトル(上)の文字方向を選択する",
+                "choices":{
+                    "center":"中央寄せ",
+                    "right":"右寄せ",
+                    "left":"左寄せ"
+                }
+            },
+            "SCFArATTFsControll" : {
+                "label" : "見出しタイトル(上)のフォントサイズを選択する"
+            },
+            "SCFArATTAnControll" : {
+                "label" : "見出しタイトル(上)のアニメーションを選択する"
+            },
+            "SCFArABTControll" : {
+                "label" : "見出しタイトル(下)を編集する"
+            },
+            "SCFArABTFsControll" : {
+                "label" : "見出しタイトル(下)のフォントサイズを選択する"
+            },
+            "SCFArABTDControll" : {
+                "label" : "見出しタイトル(下)の文字方向を選択する",
+                "choices":{
+                    "center":"中央寄せ",
+                    "right":"右寄せ",
+                    "left":"左寄せ"
+                }
+            },
+            "SCFArABTAnControll" : {
+                "label" : "見出しタイトル(下)のアニメーションを選択する"
+            },
+            "SCFArABgImgsection" : {
+                "title" : "人気記事一覧の背景画像を設定する"
+            },
+            "SCFArABgImgcontroll" : {
+                "label" : "背景画像を設定する。*背景画像を設定した場合、背景画像が優先されます。画像ではなく、背景色を優先したい場合は背景画像を設定しないでください。"
+            },
+            "SCFArABgImgStcontroll" : {
+                "label" : "背景画像のリピート",
+                "choices":{
+                    "backgroundrepeat":"リピートする",
+                    "backgroundnorepeat":"リピートしない"
+                }
+            },
+            "SCFArATBgSection" : {
+                "title" : "人気記事一覧の色の調整"
+            },
+            "SCFArATBgControll" : {
+                "label" : "見出しの背景色を変更する"
+            },
+            "SCFArATCControll" : {
+                "label" : "見出しの文字色を変更する"
+            },
+            "SCFArABgControll" : {
+                "label" : "背景色を変更する"
+            },
+            "SCFArAEBgControll" : {
+                "label" : "それぞれの背景色を変更する"
+            },
+            "SCFArADCControll" : {
+                "label" : "日付の文字色を変更する"
+            },
+            "SCFArAPCControll" : {
+                "label" : "タイトルの文字色を変更する"
+            },
+            "SCFArAThBCControll" : {
+                "label" : "サムネイル画像の枠線の色を調整する"
+            },
+            "SCFArAShdSection" : {
+                "title" : "人気記事一覧 影の設定"
+            },
+            "SCFArAShdControll" : {
+                "label" : "タイトルの影のあり、なしを選択する",
+                "choices":{
+                    "false":"あり",
+                    "true":"なし"
+                }
+            },
+            "SCFArAShdLvControll" : {
+                "label" : "タイトルの影の影の明さを選択する"
+            },
+            "SCFArAShdInControll" : {
+                "label" : "コンテンツの影のあり、なしを選択する",
+                "choices":{
+                    "false":"あり",
+                    "true":"なし"
+                }
+            },
+            "SCFArAShdLvInControll" : {
+                "label" : "コンテンツの影の影の明さを選択する"
+            }
+        },
+        "CustomizeSideColumnCategoryLink": {
+            "SCCatLDSection" : {
+                "title" : "カテゴリ一覧のカテゴリーリンクのデザインを変更する"
+            },
+            "SCCatLDControll" : {
+                "label" : "デザインを選択する",
+                "choices":{
+                    "pt1":"パターン1",
+                    "pt2":"パターン2",
+                    "pt3":"パターン3",
+                    "none":"非表示"
+                }
+            },
+            "SCCatLTTSection" : {
+                "title" : "カテゴリ一覧の見出しタイトル(上)(下)、コンテンツの余白の修正"
+            },
+            "SCCatLTTControll" : {
+                "label" : "見出しタイトル(上)を編集する"
+            },
+            "SCCatLTTDControll" : {
+                "label" : "見出しタイトル(上)の文字方向を選択する",
+                "choices":{
+                    "center":"中央寄せ",
+                    "right":"右寄せ",
+                    "left":"左寄せ"
+                }
+            },
+            "SCCatLTTFsControll" : {
+                "label" : "見出しタイトル(上)のフォントサイズを選択する"
+            },
+            "SCCatLTTAnControll" : {
+                "label" : "見出しタイトル(上)のアニメーションを選択する"
+            },
+            "SCCatLBTControll" : {
+                "label" : "見出しタイトル(上)を編集する"
+            },
+            "SCCatLBTDControll" : {
+                "label" : "見出しタイトル(下)の文字方向を選択する",
+                "choices":{
+                    "center":"中央寄せ",
+                    "right":"右寄せ",
+                    "left":"左寄せ"
+                }
+            },
+            "SCCatLBTFsControll" : {
+                "label" : "見出しタイトル(下)のフォントサイズを選択する"
+            },
+            "SCCatLBTAnControll" : {
+                "label" : "見出しタイトル(下)のアニメーションを選択する"
+            },
+            "SCCatLBgImgsection" : {
+                "title" : "カテゴリ一覧の背景画像を設定する"
+            },
+            "SCCatLBgImgcontroll" : {
+                "label" : "背景画像を設定する。*背景画像を設定した場合、背景画像が優先されます。画像ではなく、背景色を優先したい場合は背景画像を設定しないでください。"
+            },
+            "SCCatLBgImgStcontroll" : {
+                "label" : "背景画像のリピート",
+                "choices":{
+                    "backgroundrepeat":"リピートする",
+                    "backgroundnorepeat":"リピートしない"
+                }
+            },
+            "SCCatLTBgSection" : {
+                "title" : "カテゴリ一覧の色の調整"
+            },
+            "SCCatLTBgControll" : {
+                "label" : "見出しの背景色を変更する"
+            },
+            "SCCatLTCControll" : {
+                "label" : "見出しの文字色を変更する"
+            },
+            "SCCatLBgControll" : {
+                "label" : "背景色を変更する"
+            }
+        },
+        "CustomizeAnalyticsTag": {
+            "panel" : {
+                "title" : "計測タグを設置する"
+            },
+            "HTgsection" : {
+                "title" : "ヘッダー付近にタグを設定する"
+            },
+            "HTgcontroll" : {
+                "label" : "タグを編集する",
+                "description" : "<span style='color:red;'>* scriptタグなしでご利用ください</span>"
+            },
+            "FTgsection" : {
+                "title" : "フッター付近にタグを設定する"
+            },
+            "FTgcontroll" : {
+                "label" : "タグを編集する",
+                "description" : "<span style='color:red;'>* scriptタグなしでご利用ください</span>"
+            }
+        },
+        "CustomizeBreadCrumb": {
+            "panel" : {
+                "title" : "ぱんくずリストの設定"
+            },
+            "BDsection" : {
+                "title" : "デザインを変更する"
+            },
+            "BDcontroll" : {
+                "label" : "デザインを選択する",
+                "choices":{
+                    "pt1":"矢印",
+                    "pt2":"三角印",
+                    "pt3":"ハイフン",
+                    "pt4":"矢印 + アイコン",
+                    "pt5":"三角印 + アイコン",
+                    "pt6":"ハイフン + アイコン",
+                    "none":"非表示"
+                }
+            },
+            "BCsection" : {
+                "title" : "色の調整"
+            },
+            "BCcontroll" : {
+                "label" : "ぱんくずリストの背景色を変更する"
+            },
+            "BFCcontroll" : {
+                "label" : "ぱんくずリストの文字の色を変更する"
+            },
+            "BHVFCcontroll" : {
+                "label" : "ぱんくずリストにマウスをかざした時のフォントの色"
+            },
+            "BARRcontroll" : {
+                "label" : "ぱんくずリストの矢印の色を変更する"
+            },
+            "BAnsection" : {
+                "title" : "アニメーションを選択する"
+            },
+            "BAncontroll" : {
+                "label" : "アニメーションを選択する"
+            },
+            "BFszsection" : {
+                "title" : "フォントサイズの調整"
+            },
+            "BFszcontroll" : {
+                "label" : "リンクのフォントサイズを選択する"
+            }
+        },
+        "CustomizeFont": {
+            "section" : {
+                "title" : "フォントファミリーの設定"
+            },
+            "controll" : {
+                "description" : "フォントの種類を選択してください。<br><span style='color:red;'>書体を変更頂けます。</span>",
+                "choices":{
+                    "serif":"serif",
+                    "sans-serif":"sans-serif",
+                    "monospace":"monospace",
+                    "cursive":"cursive",
+                    "fantasy":"fantasy",
+                    "system-ui":"system-ui",
+                    "ui-serif":"ui-serif",
+                    "ui-sans-serif":"ui-sans-serif",
+                    "ui-monospace":"ui-monospace",
+                    "ui-rounded":"ui-rounded",
+                    "emoji":"emoji",
+                    "math":"math",
+                    "fangsong":"fangsong"
+                }
+            }
+        },
+        "CustomizeFooter": {
+            "panel" : {
+                "title" : "フッターの設定"
+            },
+            "FDsection" : {
+                "title" : "デザインを変更する"
+            },
+            "FDcontroll" : {
+                "label" : "フッターのデザインを選択する",
+                "choices":{
+                    "pt1":"右寄せ(右半分)",
+                    "pt2":"左寄せ(全画面)",
+                    "pt3":"右寄せ(右半分) アイコン(三角)あり",
+                    "pt4":"左寄せ(全画面) アイコン(三角)あり",
+                    "pt5":"右寄せ(右半分) アイコン(横線)あり",
+                    "pt6":"左寄せ(全画面) アイコン(横線)あり",
+                    "none":"非表示"
+                }
+            },
+            "FBGsection" : {
+                "title" : "色の調整"
+            },
+            "FBGcontroll" : {
+                "label" : "フッターの背景色を変更する"
+            },
+            "FFCcontroll" : {
+                "label" : "フッターの文字色を変更する"
+            },
+            "FHVFCcontroll" : {
+                "label" : "フッターにマウスをかざした時の文字色を変更する"
+            },
+            "FFszsection" : {
+                "title" : "フォントサイズの調整"
+            },
+            "FFszcontroll" : {
+                "label" : "リンクのフォントサイズを選択する"
+            },
+            "FCprFszcontroll" : {
+                "label" : "copyrightのフォントサイズを選択する"
+            },
+            "FCprsection" : {
+                "title" : "copyrightを編集する"
+            },
+            "FCprcontroll" : {
+                "label" : "copyrightを編集する"
+            }
+        },
+        "CustomizeHeader": {
+            "panel" : {
+                "title" : "ヘッダーの設定"
+            },
+            "HDsection" : {
+                "title" : "デザインを変更する"
+            },
+            "HDcontroll" : {
+                "label" : "ヘッダーの各パートの配置を選択する",
+                "choices":{
+                    "pt1":"パターン1",
+                    "pt2":"パターン2",
+                    "pt3":"パターン3",
+                    "pt4":"パターン4",
+                    "none":"非表示"
+                }
+            },
+            "HdBgImgsection" : {
+                "title" : "背景画像を設定する"
+            },
+            "HdBgImgcontroll" : {
+                "label" : "メニューエリアの背景画像を設定する",
+                "description" : "<span style='color:red;'>*背景画像を設定した場合、背景画像が優先されます。画像ではなく、背景色を優先したい場合は背景画像を設定しないでください。</span>"
+            },
+            "HdLoBgImgcontroll" : {
+                "label" : "ロゴエリアの背景画像を設定する",
+                "description" : "<span style='color:red;'>*背景画像を設定した場合、背景画像が優先されます。画像ではなく、背景色を優先したい場合は背景画像を設定しないでください。</span>"
+            },
+            "HdBgImgStcontroll" : {
+                "label" : "メニューエリアの背景画像のリピート",
+                "choices":{
+                    "backgroundrepeat":"リピートする",
+                    "backgroundnorepeat":"リピートしない"
+                }
+            },
+            "HdLoBgImgStcontroll" : {
+                "label" : "ロゴエリアの背景画像のリピート",
+                "choices":{
+                    "backgroundrepeat":"リピートする",
+                    "backgroundnorepeat":"リピートしない"
+                }
+            },
+            "HNDControll" : {
+                "label" : "ヘッダーお知らせのデザインを選択する",
+                "choices":{
+                    "pt1":"パターン1",
+                    "pt2":"パターン2",
+                    "pt3":"パターン3",
+                    "pt4":"パターン4",
+                    "none":"非表示"
+                }
+            },
+            "HCsection" : {
+                "title" : "色の調整"
+            },
+            "HWrpBGcontroll" : {
+                "label" : "ヘッダーの背景色を変更する"
+            },
+            "HWrpBGStcontroll" : {
+                "label" : "ヘッダーの背景色",
+                "choices":{
+                    "true":"あり",
+                    "false":"なし"
+                }
+            },
+            "HBGcontroll" : {
+                "label" : "ヘッダーのメニューエリアの背景色を変更する"
+            },
+            "HBGStcontroll" : {
+                "label" : "ヘッダーのメニューエリアの背景色",
+                "choices":{
+                    "true":"あり",
+                    "false":"なし"
+                }
+            },
+            "HLoBGcontroll" : {
+                "label" : "ヘッダーのロゴエリアの背景色を変更する"
+            },
+            "HLoBGStcontroll" : {
+                "label" : "ヘッダーのロゴエリアの背景色",
+                "choices":{
+                    "true":"あり",
+                    "false":"なし"
+                }
+            },
+            "HFCcontroll" : {
+                "label" : "ヘッダーのメニューエリアの文字色を変更する"
+            },
+            "HFLoCcontroll" : {
+                "label" : "ヘッダーのロゴエリアの文字色を変更する"
+            },
+            "HFHVFCcontroll" : {
+                "label" : "ヘッダーにマウスをかざした時の文字色を変更する"
+            },
+            "HNFCcontroll" : {
+                "label" : "ヘッダーお知らせの文字色を変更する"
+            },
+            "HNHVFCcontroll" : {
+                "label" : "ヘッダーお知らせにマウスをかざした時の文字色を変更する"
+            },
+            "HNBGcontroll" : {
+                "label" : "ヘッダーお知らせの背景色を変更する"
+            },
+            "HNBGStcontroll" : {
+                "label" : "ヘッダーお知らせエリアの背景色",
+                "choices":{
+                    "true":"あり",
+                    "false":"なし"
+                }
+            },
+            "HFszsection" : {
+                "title" : "フォントサイズの調整"
+            },
+            "LkFszcontroll" : {
+                "label" : "リンクのフォントサイズを選択する"
+            },
+            "LFszcontroll" : {
+                "label" : "ロゴの文字のフォントサイズを選択する"
+            },
+            "HNFszcontroll" : {
+                "label" : "ヘッダーお知らせのフォントサイズを選択する"
+            },
+            "LAnsection" : {
+                "title" : "アニメーションの設定"
+            },
+            "LAncontroll" : {
+                "label" : "ロゴの文字のアニメーションを設定する"
+            },
+            "LkAncontroll" : {
+                "label" : "リンクのアニメーションを設定する"
+            },
+            "HSDsection" : {
+                "title" : "ヘッダー下に影または線を引く"
+            },
+            "HSDcontroll" : {
+                "label" : "ヘッダー下の選択をする",
+                "choices":{
+                    "boxshadow:":"影をつける",
+                    "borderbottom":"線を引く",
+                    "none":"なし"
+                }
+            },
+            "HTsection" : {
+                "title" : "ヘッダーお知らせのタイトルを編集する"
+            },
+            "HTcontroll" : {
+                "label" : "ヘッダーお知らせのタイトルを編集する"
+            },
+            "HTLsection" : {
+                "title" : "ヘッダーお知らせのリンクを編集する"
+            },
+            "HTLcontroll" : {
+                "label" : "ヘッダーお知らせのリンクを編集する"
+            },
+            "HLDssection" : {
+                "title" : "ロゴ画像の表示、非表示"
+            },
+            "HLDscontroll" : {
+                "label" : "ロゴ画像の表示、非表示を選択する",
+                "choices":{
+                    "inlineblock":"あり",
+                    "none":"なし"
+                }
+            },
+            "HLTDsection" : {
+                "title" : "ロゴタイトルの表示、非表示"
+            },
+            "HLTDcontroll" : {
+                "label" : "ロゴタイトルの表示、非表示を選択する",
+                "choices":{
+                    "inlineblock":"あり",
+                    "none":"なし"
+                }
+            },
+            "HLTsection" : {
+                "title" : "ロゴタイトルを編集する"
+            },
+            "HLTcontroll" : {
+                "label" : "ロゴタイトルを編集する"
+            },
+            "HPsection" : {
+                "title" : "その他"
+            },
+            "HPcontroll" : {
+                "label" : "ヘッダーの固定",
+                "choices":{
+                    "fixed":"固定する",
+                    "none":"固定しない"
+                }
+            }
+        },
+        "CustomizeArchiveArticle": {
+            "ArchADSection" : {
+                "title" : "アーカイブ記事一覧のデザインを変更する"
+            },
+            "ArchADControll" : {
+                "label" : "PCデザインを選択する"
+            },
+            "ArchADSPControll" : {
+                "label" : "SPデザインを選択する"
+            },
+            "ArchATDControll" : {
+                "label" : "カテゴリーリンクのデザインを選択する",
+                "choices":{
+                    "pt1":"パターン1",
+                    "pt2":"パターン2",
+                    "pt3":"パターン3",
+                    "none":"非表示"
+                }
+            },
+            "ArchAWBRControll" : {
+                "label" : "枠線の丸みを設定する"
+            },
+            "ArchACBRControll" : {
+                "label" : "コンテンツの丸みを設定する"
+            },
+            "ArchAThBDControll" : {
+                "label" : "サムネイル画像の線",
+                "choices":{
+                    "true":"あり",
+                    "false":"なし"
+                }
+            },
+            "ArchABgImgsection" : {
+                "title" : "アーカイブ記事一覧の背景画像を設定する"
+            },
+            "ArchABgImgcontroll" : {
+                "label" : "背景画像を設定する。*背景画像を設定した場合、背景画像が優先されます。画像ではなく、背景色を優先したい場合は背景画像を設定しないでください。"
+            },
+            "ArchABgImgStcontroll" : {
+                "label" : "背景画像のリピート",
+                "choices": {
+                    "backgroundrepeat":"リピートする",
+                    "backgroundnorepeat":"リピートしない"
+                }
+            },
+            "ArchALNSection" : {
+                "title" : "アーカイブ記事の表示数、タイトル、余白の設定"
+            },
+            "ArchALNControll" : {
+                "label" : "表示するアーカイブ記事の数を選択する"
+            },
+            "ArchATTControll" : {
+                "label" : "見出しタイトルを編集する"
+            },
+            "ArchATTDControll" : {
+                "label" : "見出しタイトルの文字方向を選択する",
+                "choices": {
+                    "center":"中央寄せ",
+                    "right":"右寄せ",
+                    "left":"左寄せ"
+                }
+            },
+            "ArchATTFsControll" : {
+                "label" : "見出しタイトルのフォントサイズを選択する"
+            },
+            "ArchATTFwControll" : {
+                "label" : "見出しタイトルのフォントの太さを選択する",
+                "choices": {
+                    "normal":"細く",
+                    "bold":"太く"
+                }
+            },
+            "ArchATTAnControll" : {
+                "label" : "見出しタイトルのアニメーションを選択する"
+            },
+            "ArchATBgSection" : {
+                "title" : "アーカイブ記事一覧の色の調整"
+            },
+            "ArchATBgControll" : {
+                "label" : "見出しの背景色を変更する"
+            },
+            "ArchATCControll" : {
+                "label" : "見出しの文字色を変更する"
+            },
+            "ArchABgControll" : {
+                "label" : "背景色を変更する"
+            },
+            "ArchAEBgControll" : {
+                "label" : "それぞれの背景色を変更する"
+            },
+            "ArchACDCControll" : {
+                "label" : "日付の文字色を変更する"
+            },
+            "ArchAPTCControll" : {
+                "label" : "タイトルの文字色を変更する"
+            },
+            "ArchAThBCControll" : {
+                "label" : "サムネイル画像の枠線の色を調整する"
+            },
+            "ArchAAnSection" : {
+                "title" : "アーカイブ記事一覧のコンテンツのアニメーションを選択する"
+            },
+            "ArchAAnControll" : {
+                "label" : "アーカイブ記事一覧のコンテンツのアニメーションを選択する"
+            },
+            "ArchAShdSection" : {
+                "title" : "アーカイブ記事一覧 影の設定"
+            },
+            "ArchAShdControll" : {
+                "label" : "外枠の影のあり、なしを選択する",
+                "choices" :{
+                    "false" :"なし",
+                    "true" :"あり"
+                }
+            },
+            "ArchAShdLvControll" : {
+                "label" : "外枠の影の影の明さを選択する"
+            },
+            "ArchAShdInControll" : {
+                "label" : "コンテンツの影のあり、なしを選択する",
+                "choices" :{
+                    "false" :"なし",
+                    "true" :"あり"
+                }
+            },
+            "ArchAShdLvInControll" : {
+                "label" : "コンテンツの影の影の明さを選択する"
+            }
+        }
+    }
+}

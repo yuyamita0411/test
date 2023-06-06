@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* シンプル, 塗りつぶし, 帯, 吹き出し, ステッチ */
+.is-style-tie-heading {
+	position:relative;
+	padding:0 0 0 10px;
+}
+.is-style-tie-heading::before {
+	position: absolute;
+	top: 0%;
+	left: 0;
+	width: 6px;
+	height: 100%;
+	content: '';
+	background-color: blue;
+	border-radius: 3px;
+}
+
+/* オリジナルブロック */
+.block-area {
+    padding: 20px;
+    border:1px solid #555;
+}
+.block-area .block-title {
+    margin: 0 0 20px;
+    padding: 0 0 5px;
+    border-bottom: 1px dotted #555;
+    font-size:24px;
+}

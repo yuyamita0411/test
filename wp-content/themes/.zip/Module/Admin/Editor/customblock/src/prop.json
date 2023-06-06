@@ -1,0 +1,59 @@
+{
+    "toolbarprop": [
+        {"name":"Yellow", "class":"mark-double-yellow", "prop":"border-bottom: double 5px rgba(255,252,107,.69);", "icon":"\\f309", "color":"rgba(255,252,107,.69)"},
+        {"name":"Blue", "class":"mark-double-blue", "prop":"border-bottom: double 5px rgba(107,182,255,.24);", "icon":"\\f309", "color":"rgba(107,182,255,.24)"},
+        {"name":"Green", "class":"mark-double-green", "prop":"border-bottom: double 5px rgba(151,232,154,.69);", "icon":"\\f309", "color":"rgba(151,232,154,.69)"},
+        {"name":"Red", "class":"mark-double-red", "prop":"border-bottom: double 5px rgba(255,88,88,.24);", "icon":"\\f309", "color":"rgba(255,88,88,.24)"},
+        {"name":"Yellow", "class":"mark-background-yellow", "prop":"background: rgba(255,252,107,.69); padding: 0.5em;", "icon":"\\f309", "color":"rgba(255,252,107,.69)"},
+        {"name":"Blue", "class":"mark-background-blue", "prop":"background: rgba(107,182,255,.24); padding: 0.5em;", "icon":"\\f309", "color":"rgba(107,182,255,.24)"},
+        {"name":"Green", "class":"mark-background-green", "prop":"background: rgba(151,232,154,.69); padding: 0.5em;", "icon":"\\f309", "color":"rgba(151,232,154,.69)"},
+        {"name":"Red", "class":"mark-background-red", "prop":"background: rgba(255,88,88,.24); padding: 0.5em;", "icon":"\\f309", "color":"rgba(255,88,88,.24)"}
+    ],
+    "blockmenuprop":[
+        {"name":"下線", "className": "headline-underline", "prop": "border-bottom: solid 2px #000;", "beforeprop": "", "afterprop": "", "beforeafterprop": ""},
+        {"name":"横線", "className": "headline-left-line", "prop": "border-left: solid 2px #000; padding: 0.2em 0.45em; background: transparent;", "beforeprop": "", "afterprop": "", "beforeafterprop": ""},
+        {"name":"上下線", "className": "headline-top-under-line", "prop": "border-top: solid 2px #000; border-bottom: solid 2px #000; padding: 0.45em 0;", "beforeprop": "", "afterprop": "", "beforeafterprop": ""},
+        {"name":"囲み", "className": "headline-square-line", "prop": "border: solid 2px #000; padding: 0.45em;", "beforeprop": "", "afterprop": "", "beforeafterprop": ""},
+        {"name":"囲み(丸角)", "className": "headline-surround-line", "prop": "border: solid 2px #000; padding: 0.45em; border-radius: 0.45em;", "beforeprop": "", "afterprop": "", "beforeafterprop": ""},
+        {"name":"下点線", "className": "headline-dot-line", "prop": "border-bottom: dashed 2px #000;", "beforeprop": "", "afterprop": "", "beforeafterprop": ""},
+        {"name":"下二重線", "className": "headline-double-line", "prop": "border-bottom: double 5px #000;", "beforeprop": "", "afterprop": "", "beforeafterprop": ""}
+    ],
+    "blockmenupropago":[
+        {"name":"下線", "className": "headline-underline", "prop": "border-bottom: solid 2.5px #000;", "beforeprop": "", "afterprop": "", "beforeafterprop": ""},
+        {"name":"横線 + 背景色", "className": "headline-left-line-bg", "prop": "border-left: solid 5px #000; padding: 0.45em; background: #F2F2F2;", "beforeprop": "", "afterprop": "", "beforeafterprop": ""},
+        {"name":"横線", "className": "headline-left-line", "prop": "border-left: solid 5px #000; padding: 0.2em 0.45em; background: transparent;", "beforeprop": "", "afterprop": "", "beforeafterprop": ""},
+        {"name":"上下線", "className": "headline-top-under-line", "prop": "border-top: solid 3px #000; border-bottom: solid 3px #000; padding: 0.45em 0;", "beforeprop": "", "afterprop": "", "beforeafterprop": ""},
+        {"name":"囲み", "className": "headline-surround-line", "prop": "border: solid 3px #000; padding: 0.45em; border-radius: 0.45em;", "beforeprop": "", "afterprop": "", "beforeafterprop": ""},
+        {"name":"下点線", "className": "headline-dot-line", "prop": "border-bottom: dashed 2px #000;", "beforeprop": "", "afterprop": "", "beforeafterprop": ""},
+        {"name":"下二重線", "className": "headline-double-line", "prop": "border-bottom: double 5px #000;", "beforeprop": "", "afterprop": "", "beforeafterprop": ""},
+        {"name":"下線 + 背景色", "className": "headline-under-line-bg", "prop": "border-bottom: solid 3px #000; padding: 0.45em; background: #F2F2F2;", "beforeprop": "", "afterprop": "", "beforeafterprop": ""},
+        {"name":"吹き出し", "className": "headline-balloon-bg", "prop": "background: #000; color:#fff; position: relative; padding: 0.5rem;", "beforeprop": "", "afterprop": "border: 10px solid transparent; border-top: 12px solid #000; top: 100%; content: ''; position: absolute; left: 30px;", "beforeafterprop": ""},
+        {"name":"リボン風", "className": "headline-ribbon-bg", "prop": "position: relative; padding: 0 1rem; background-color: #000; color: #353535; width: calc(100% - 1.6em); margin-left:.8em; line-height:1em; padding:.5em;", "beforeprop": "border-width: 1em 0px 1em .87em; border-style: solid; position: absolute; top: 0; left: -.85em; width: 0px; height: 0px; border-color: #000 transparent; content: '';", "afterprop": "border-width: 1em .87em 1em 0px; border-style: solid; position: absolute; top: 0; right: -.85em; width: 0px; height: 0px; border-color: #000 transparent; content: '';", "beforeafterprop": ""}
+    ],
+    "colors":[
+        { "name": "", "color": "rgb(0, 0, 0)" },
+        { "name": "", "color": "rgb(171, 184, 195)" },
+        { "name": "", "color": "rgb(255, 255, 255)" },
+        { "name": "", "color": "rgb(247, 141, 167)" },
+        { "name": "", "color": "rgb(207, 46, 46)" },
+        { "name": "", "color": "rgb(255, 105, 0)" },
+        { "name": "", "color": "rgb(252, 185, 0)" },
+        { "name": "", "color": "rgb(123, 220, 181)" },
+        { "name": "", "color": "rgb(0, 208, 132)" },
+        { "name": "", "color": "rgb(142, 209, 252)" },
+        { "name": "", "color": "rgb(6, 147, 227)" },
+        { "name": "", "color": "rgb(155, 81, 224)" }
+    ],
+    "buttonMenuProp":[
+        {"name":"デフォルト", "className": "normalButton"},
+        {"name":"線ボタン", "className": "lineButton"}
+    ],
+    "boxMenuProp":[
+        {"name":"デフォルト", "border": "solid"},
+        {"name":"二重線ボタン", "border": "double"},
+        {"name":"点線ボタン", "border": "dotted"}
+    ],
+    "進捗":"https://jajaaan.co.jp/css/css-headline/ の囲み二重点線までいった",
+    "カラーコード":"薄紫:#DC7AF4 #F8E7FC",
+    "終わり":"黒:#000 #F2F2F2,薄黒:#666666 #F2F2F2, 赤:#d81f0a #FDE8E6, 薄赤:#F6604F #FDE9E6, 黄:#eeee22 #FDFDE7, 薄黄:#F4F47F #FCFCE7, 青:#203ee8 #E7EBFC, 薄青;#798BF0 #E8EBFC, 紫:#c721ed #F8E7FD, "
+}

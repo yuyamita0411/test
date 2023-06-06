@@ -1,0 +1,189 @@
+{
+    "CustomizeHeader": {
+        "panel" : {
+            "title" : "ヘッダーの設定"
+        },
+        "HDsection" : {
+            "title" : "デザインを変更する"
+        },
+        "HDcontroll" : {
+            "label" : "ヘッダーの各パートの配置を選択する",
+            "choices":{
+                "pt1":"パターン1",
+                "pt2":"パターン2",
+                "pt3":"パターン3",
+                "pt4":"パターン4",
+                "none":"非表示"
+            }
+        },
+        "HdBgImgsection" : {
+            "title" : "背景画像を設定する"
+        },
+        "HdBgImgcontroll" : {
+            "label" : "メニューエリアの背景画像を設定する",
+            "description" : "<span style='color:red;'>*背景画像を設定した場合、背景画像が優先されます。画像ではなく、背景色を優先したい場合は背景画像を設定しないでください。</span>"
+        },
+        "HdLoBgImgcontroll" : {
+            "label" : "ロゴエリアの背景画像を設定する",
+            "description" : "<span style='color:red;'>*背景画像を設定した場合、背景画像が優先されます。画像ではなく、背景色を優先したい場合は背景画像を設定しないでください。</span>"
+        },
+        "HdBgImgStcontroll" : {
+            "label" : "メニューエリアの背景画像のリピート",
+            "choices":{
+                "backgroundrepeat":"リピートする",
+                "backgroundnorepeat":"リピートしない"
+            }
+        },
+        "HdLoBgImgStcontroll" : {
+            "label" : "ロゴエリアの背景画像のリピート",
+            "choices":{
+                "backgroundrepeat":"リピートする",
+                "backgroundnorepeat":"リピートしない"
+            }
+        },
+        "HNDControll" : {
+            "label" : "ヘッダーお知らせのデザインを選択する",
+            "choices":{
+                "pt1":"パターン1",
+                "pt2":"パターン2",
+                "pt3":"パターン3",
+                "pt4":"パターン4",
+                "none":"非表示"
+            }
+        },
+        "HCsection" : {
+            "title" : "色の調整"
+        },
+        "HWrpBGcontroll" : {
+            "label" : "ヘッダーの背景色を変更する"
+        },
+        "HWrpBGStcontroll" : {
+            "label" : "ヘッダーの背景色",
+            "choices":{
+                "true":"あり",
+                "false":"なし"
+            }
+        },
+        "HBGcontroll" : {
+            "label" : "ヘッダーのメニューエリアの背景色を変更する"
+        },
+        "HBGStcontroll" : {
+            "label" : "ヘッダーのメニューエリアの背景色",
+            "choices":{
+                "true":"あり",
+                "false":"なし"
+            }
+        },
+        "HLoBGcontroll" : {
+            "label" : "ヘッダーのロゴエリアの背景色を変更する"
+        },
+        "HLoBGStcontroll" : {
+            "label" : "ヘッダーのロゴエリアの背景色",
+            "choices":{
+                "true":"あり",
+                "false":"なし"
+            }
+        },
+        "HFCcontroll" : {
+            "label" : "ヘッダーのメニューエリアの文字色を変更する"
+        },
+        "HFLoCcontroll" : {
+            "label" : "ヘッダーのロゴエリアの文字色を変更する"
+        },
+        "HFHVFCcontroll" : {
+            "label" : "ヘッダーにマウスをかざした時の文字色を変更する"
+        },
+        "HNFCcontroll" : {
+            "label" : "ヘッダーお知らせの文字色を変更する"
+        },
+        "HNHVFCcontroll" : {
+            "label" : "ヘッダーお知らせにマウスをかざした時の文字色を変更する"
+        },
+        "HNBGcontroll" : {
+            "label" : "ヘッダーお知らせの背景色を変更する"
+        },
+        "HNBGStcontroll" : {
+            "label" : "ヘッダーお知らせエリアの背景色",
+            "choices":{
+                "true":"あり",
+                "false":"なし"
+            }
+        },
+        "HFszsection" : {
+            "title" : "フォントサイズの調整"
+        },
+        "LkFszcontroll" : {
+            "label" : "リンクのフォントサイズを選択する"
+        },
+        "LFszcontroll" : {
+            "label" : "ロゴの文字のフォントサイズを選択する"
+        },
+        "HNFszcontroll" : {
+            "label" : "ヘッダーお知らせのフォントサイズを選択する"
+        },
+        "LAnsection" : {
+            "title" : "アニメーションの設定"
+        },
+        "LAncontroll" : {
+            "label" : "ロゴの文字のアニメーションを設定する"
+        },
+        "LkAncontroll" : {
+            "label" : "リンクのアニメーションを設定する"
+        },
+        "HSDsection" : {
+            "title" : "ヘッダー下に影または線を引く"
+        },
+        "HSDcontroll" : {
+            "label" : "ヘッダー下の選択をする",
+            "choices":{
+                "backgroundrepeat":"影をつける",
+                "backgroundnorepeat":"線を引く"
+            }
+        },
+        "HTsection" : {
+            "title" : "ヘッダーお知らせのタイトルを編集する"
+        },
+        "HTcontroll" : {
+            "label" : "ヘッダーお知らせのタイトルを編集する"
+        },
+        "HTLsection" : {
+            "title" : "ヘッダーお知らせのリンクを編集する"
+        },
+        "HTLcontroll" : {
+            "label" : "ヘッダーお知らせのリンクを編集する"
+        },
+        "HLDssection" : {
+            "title" : "ロゴ画像の表示、非表示"
+        },
+        "HLDscontroll" : {
+            "label" : "ロゴ画像の表示、非表示を選択する",
+            "choices":{
+                "inlineblock":"あり",
+                "none":"なし"
+            }
+        },
+        "HLTDsection" : {
+            "title" : "ロゴタイトルの表示、非表示"
+        },
+        "HLTDcontroll" : {
+            "label" : "ロゴタイトルの表示、非表示を選択する",
+            "choices":{
+                "inlineblock":"あり",
+                "none":"なし"
+            }
+        },
+        "HLTsection" : {
+            "title" : "ロゴタイトルを編集する"
+        },
+        "HLTcontroll" : {
+            "label" : "ロゴタイトルを編集する"
+        },
+        "HPcontroll" : {
+            "label" : "ヘッダーの固定",
+            "choices":{
+                "fixed":"固定する",
+                "none":"固定しない"
+            }
+        }
+    }
+}

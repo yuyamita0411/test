@@ -1,0 +1,32 @@
+{
+  "name": "customblock",
+  "version": "0.1.0",
+  "description": "Example block scaffolded with Create Block tool.",
+  "author": "The WordPress Contributors",
+  "license": "GPL-2.0-or-later",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "start": "wp-scripts start"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^25.2.0",
+    "json-loader": "^0.5.7"
+  },
+  "dependencies": {
+    "@technote-space/register-grouped-format-type": "^2.2.3",
+    "@wordpress/block-editor": "^11.3.0",
+    "@wordpress/blocks": "^12.2.0",
+    "@wordpress/components": "^23.3.0",
+    "@wordpress/i18n": "^4.25.0",
+    "@wordpress/rich-text": "^6.2.0",
+    "block-editor": "^0.0.1",
+    "blocks": "^0.3.5",
+    "wp-scripts": "^0.0.1-security"
+  }
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+	<title>サイトマップ</title>
+    <meta charset="utf-8">
+    {{SitemapStyles}}
+</head>
+<body class="home blog logged-in admin-bar customize-support">
+	<header class="gnavwrapper w-100 d-inline-block z1">
+		<div class="d-inline-block col-md-12 pr-0 pl-0 float-md-right pb-3 pt-3" id="gnavinner">
+			<div class="col-12 col-md-10 col-lg-8 m-auto">
+				<ul class="gmenueinner mb-0 d-inline-block w-100" id="menu">
+					<h1 class="w-100 text-center mb-md-0 cursor text-white" id="">
+						サイトマップ
+                    </h1>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<main class="w-100 d-inline-block pt-4" id="site-content">
+		<nav class="contentarea col-12 col-md-10 col-lg-8 pt-2 pr-2 pl-2 pb-4 m-auto">
+            <ul id="breadcrumb" class="breadcrumb">
+                <li class="topli breadstr">
+                    {{BreadCrumbTopLink}}
+                </li>
+                <li class="breadarrowstr pl-1 pr-1"></li>
+                <li class="breadstr cursor">
+                    サイトマップ
+                </li>
+            </ul>
+		</nav>
+		<section class="contentarea col-12 col-md-10 col-lg-8 pt-2 pr-2 pl-2 pb-4 m-auto">
+			<div class="SitemapArea w-100 d-inline-block pt-2 pb-2 pl-1 pr-1" id="SitemapArea">
+				<div class="Sitemaplinkarea col-12 float-left p-1">
+					<div class="w-100 d-inline-block pr-2 pl-2 pt-2">
+                        {{SitemapTopLink}}
+					</div>
+					<div class="w-100 d-inline-block pt-2 pr-2 pl-2 pb-4">
+                        <h4 class="midashi mb-2 position-relative pl-3">投稿・固定ページ</h4>
+						<div class="linkarea w-100 d-inline-block mb-0 pl-5">
+                            {{SitemapArticleLinks}}
+						</div>
+					</div>
+					<div class="w-100 d-inline-block p-2">
+                        <h4 class="mb-2 position-relative">アーカイブページ</h4>
+						<div class="linkarea w-100 d-inline-block mb-0">
+                            {{SitemapArchiveLinks}}
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+    <footer class="footer w-100 d-inline-block mt-4 pt-3 pb-3 float-left" id="footer"></footer>
+    <style>
+        h1{
+            font-size:2rem;
+        }
+        #site-content{
+            min-height:calc(100vh - 100px);
+        }
+        .logo, #gnavinner {
+            background-color: #06357c;
+        }
+        #breadcrumb > li {
+            position: relative;
+            height: 1.25rem;
+        }
+        .SitemapArea {
+        background-color: #f4f4f4;
+        }
+        .Sitemaplinkarea > div {
+        background-color: #ffffff;
+        }
+        .Sitemaplinkarea .catlink,
+        .sitemaptop{
+        color: #212529;
+        }
+        .breadarrowstr {
+            position: relative;
+            margin-top: 3px;
+            width: 4px;
+            height: 9px;
+            margin-right: 7.5px;
+            margin-left: 5.5px;
+        }
+        .breadarrowstr::before, .breadarrowstr::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            width: 6px;
+            height: 1.5px;
+            opacity: .4;
+            -webkit-transform-origin: right;
+            transform-origin: right;
+        }
+        .catlink::before,.catlink::after{
+            left: 3px;
+        }
+        .breadarrowstr::before, .breadarrowstr::after{
+            right: 0;
+        }
+        .sitemaptop:hover,
+        .catlink:hover{
+            color:#ff7575;
+        }
+        .catlink:hover{
+            transform: scale(1.05);
+        }
+        .sitemaptop,
+        .catlink,
+        .catlink:hover{
+            transition:all 0.5s;
+        }
+        .breadarrowstr::before {
+            -webkit-transform: rotate(40deg);
+            transform: rotate(40deg);
+        }
+        .breadarrowstr::after {
+            -webkit-transform: rotate(-40deg);
+            transform: rotate(-40deg);
+        }
+        .catlink::before{
+            content:'|';
+            color:#ff7575;
+            margin-right:0.5rem;
+        }
+        .breadarrowstr::before, .breadarrowstr::after {
+            background: #757575;
+        }
+        .breadcrumb {
+            background-color: #e9ecef;
+        }
+        .breadcrumb .breadstr, .breadcrumb .breadstr a {
+            color: #06357c;
+        }
+        .breadcrumb .breadstr:hover, .breadcrumb .breadstr a:hover {
+            color: #afafaf;
+        }
+        .breadarrowstr {
+            color: #757575;
+        }
+        .footer {
+            background-color: #06357c;
+        }
+        .midashi:before {
+            content: '↪︎';
+            color: #ff7575;
+            font-weight: bold;
+            margin-right: 0.5rem;
+            position: absolute;
+            top: 2rem;
+        }
+    </style>
+</body>
+</html>

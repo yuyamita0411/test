@@ -1,0 +1,53 @@
+/*accordion menu*/
+.accordionWrapper {
+    overflow: hidden;
+}
+.accordionTitle {
+    /*z-index: 1;*/
+}
+.accordionTitleOpen::after,
+.accordionTitleClose::after{
+    font-family: Font Awesome\ 5 Free;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 15px;
+    opacity: .7;
+    position: absolute;
+    right: 15px;
+    top: 17px;
+    top: calc(50% - 7.5px);
+}
+.accordionTitleClose::after{
+    content: "";
+}
+.accordionTitleOpen::after{
+    content: "";
+}
+.accordionTitleClose::after,
+.accordionTitleOpen::after {
+    transition:all 2s;
+}
+
+.accordionContentOpen {
+    line-height: 1;
+    visibility: visible;
+    transition:
+      line-height .15s ease-out,
+      visibility  .0s linear .0s;
+  }
+  .accordionContentClose {
+    line-height: 0;
+    visibility: hidden;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    transition:
+      line-height .15s ease-out,
+      visibility  .15s linear;
+}
+/*accordion menu*/
+
+/*button menu*/
+/*button menu*/
+
+/*profile menu*/
+/*profile menu*/

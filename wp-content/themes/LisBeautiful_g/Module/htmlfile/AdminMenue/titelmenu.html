@@ -1,0 +1,36 @@
+<div class="Sitemaplinkarea w-100 float-left">
+    <p class="">各ページ個別にタイトル・ディスクリプションを設定いただけます。</p>
+    <div class="w-100 d-inline-block mb-3">
+        <p class="mb-2 position-relative">タイトルの設定<br>
+            <small class="red">記事タイトルとは異なるタイトルにしたい場合に入力します。</small>
+        </p>
+        <div class="linkarea w-100 d-inline-block mb-0">
+            {{SetTitleArea}}
+        </div>
+    </div>
+    <div class="w-100 d-inline-block">
+        <p class="mb-2 position-relative">ディスクリプションの設定</p><br>
+        <small class="red">ページ毎に個別に設定頂けます。</small>
+        <div class="linkarea w-100 d-inline-block mb-0">
+            {{SetDescriptionArea}}
+        </div>
+    </div>
+    <div class="w-100 d-inline-block">
+        <p class="mb-2 position-relative">メタキーワードの設定</p><br>
+        <small class="red">キーワードを","(カンマ)で区切って入力ください。</small>
+        <div class="linkarea w-100 d-inline-block mb-0">
+            {{SetMetaKeywordArea}}
+        </div>
+    </div>
+</div>
+<style>
+    .red{
+        color:#ff7575;
+    }
+    .d-inline-bloc{
+        display:inline-block;
+    }
+    .w-100{
+        width:100%;
+    }
+</style>

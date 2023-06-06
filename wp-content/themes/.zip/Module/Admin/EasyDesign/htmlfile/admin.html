@@ -1,0 +1,227 @@
+<div class="easyDesignwrapper">
+    <h1 class="wp-heading-inline">カスタマイザー以外からも簡単にデザインの設定ができます。</h1>
+    <!-- setting area -->
+    <div class="settingArea">
+        <div class="easyDesignColorSegment" style="margin-top:3rem;">
+            <h2 class="">色合いの設定</h2>
+            <div style="">
+                <h4 id="SetBaseColor">ベースカラーを設定する</h4>
+                <small></small>
+                <div id="BaseColorWrapper" style="position: relative;">
+                    <input type="text" name="colorText" class="SetBaseColorPicker" >
+                </div>
+                <h4 id="SetMainColor">メインカラーを設定する</h4>
+                <small></small>
+                <div id="MainColorWrapper" style="position: relative;">
+                    <input type="text" name="colorText" class="SetMainColorPicker" >
+                </div>
+                <h4 id="SetAccentColor">アクセントカラーを設定する</h4>
+                <small></small>
+                <div id="AccentColorWrapper" style="position: relative;">
+                    <input type="text" name="colorText" class="SetAccentColorPicker" >
+                </div>
+            </div>
+        </div>
+        <div class="easyDesignLayoutSegment" style="margin-top:3rem; width:100%; display:inline-block;">
+            <h2 class="" style="margin-bottom:0.5rem;">レイアウトの設定</h2>
+            <span></span>
+            <table style="background:#ffff; display:inline-block; float:left;">
+                <tr>
+                    <td class="Lpattern1" data-pattern="1" style="cursor:pointer; padding:.5em; font-size:1.2rem;">1</td>
+                    <td class="Lpattern2" data-pattern="2" style="cursor:pointer; padding:.5em; font-size:1.2rem;">2</td>
+                    <td class="Lpattern3" data-pattern="3" style="cursor:pointer; padding:.5em; font-size:1.2rem;">3</td>
+                    <td class="Lpattern4" data-pattern="4" style="cursor:pointer; padding:.5em; font-size:1.2rem;">4</td>
+                </tr>
+            </table>
+        </div>
+        <div id="easyDesignCondition">
+            <span id="layoutPattern"></span>
+        </div>
+        <div id="easyDesignPreview" class="" style="margin-top:3rem;">
+            <h2 class="" style="margin-bottom:0.5rem;">プレビュー</h2>
+            <div id="easyDesignwrapper" class="wrapper">
+                <div id="easyDesignHeader" class="header"></div>
+                <div id="easyDesignContent" class="content">
+                    <div id="easyDesignBreadcrumb" class="breadcrumb"></div>
+                </div>
+                <div id="easyDesignFooter" class="footer"></div>
+            </div>
+        </div>
+        <div id="easyDesignPreviewButton" style="margin-top:.5rem;">preview</div>
+        <div id="easyDesignChangeButton" style="margin-top:.5rem;">change</div>
+    </div>
+    <!-- setting area -->
+
+    <!-- preview area -->
+    <div class="previewArea"></div>
+    <!-- preview area -->
+    <!--- modal --->
+    <div id="easyDesigModal" class="easyDesigModalClose">
+        <div id="easyDesigModalInner">
+            <h2></h2>
+            <div style="display:inline-block; width:100%; text-align: center;">
+                <div id="easyDesignSendButton" style="margin-top:.5rem; cursor: pointer;">change</div>
+            </div>
+        </div>
+    </div>
+    <!--- modal --->
+</div>
+<div id="easyDesigModalCover" class="easyDesigModalCoverClose"></div>
+<style>
+    .easyDesignwrapper{
+        position:relative;
+        overflow: hidden;
+    }
+    .Lpattern{
+        position:relative;
+        background:rgb(0, 0, 0, 0);
+        color:rgb(0, 0, 0, 1);
+    }
+    .pattern-active{
+        position:relative;
+        background:rgb(252, 185, 0);
+        color:#ffff;
+    }
+    .Lpattern,
+    .pattern-active{
+        transition:all .25s;
+    }
+    #easyDesignSendButton,
+    #easyDesignChangeButton,
+    #easyDesignPreviewButton{
+        cursor:pointer;
+        clear:both;
+        min-width: 5rem;
+        text-align: center;
+        border-radius: 3px;
+        position: relative;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 220px;
+        padding: 10px 25px;
+        color: #FFFF;
+        transition: 0.3s ease-in-out;
+        font-weight: 600;
+        border-radius: 50px;
+    }
+    #easyDesignChangeButton,
+    #easyDesignPreviewButton{
+        float:left;
+    }
+    #easyDesignSendButton,
+    #easyDesignChangeButton:hover,
+    #easyDesignPreviewButton:hover {
+        box-shadow: 0 0 0;
+        transform: translate(2px, 2px);
+    }
+    #easyDesignSendButton:after,
+    #easyDesignChangeButton:after,
+    #easyDesignPreviewButton:after {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transition: 0.2s ease-in-out;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        transform: translateY(-50%);
+    }
+
+    #easyDesignSendButton{
+        background: #3b8df7;
+        box-shadow: 3px 3px 0 #3b8df7;
+    }
+    #easyDesignChangeButton{
+        background: #ed930b;
+        box-shadow: 3px 3px 0 #ed8e00;
+    }
+    #easyDesignPreviewButton{
+        background: #b7b7b7;
+        box-shadow: 3px 3px 0 #4f4f4f;
+    }
+    .settingArea,
+    .previewArea{
+        display:inline-block;
+    }
+    .settingArea{
+        min-width:5rem;
+        width:20%;
+    }
+    .previewArea{
+        width:80%;
+        height:100vh;
+        background:#ffff;
+    }
+    .settingArea{
+        float:left;
+    }
+    .previewArea{
+        float:right;
+    }
+    .easyDesignLayoutSegment > table td:not(:last-child){
+        border-right:solid gray 0.5px;
+    }
+    #easyDesigModalCover{
+        cursor:pointer;
+    }
+    #easyDesigModal{
+        top:30vh;
+        left:20%;
+    }
+    #easyDesigModalCover{
+        top:0%;
+    }
+    #easyDesigModalCover{
+        left:0%;
+    }
+    #easyDesigModalCover{
+        position:fixed;
+    }
+    #easyDesigModal{
+        position:fixed;
+    }
+    .easyDesigModalOpen,
+    .easyDesigModalCoverOpen{
+        opacity:1;
+    }
+    .easyDesigModalOpen{
+        z-index: 2;
+    }
+    .easyDesigModalCoverOpen{
+        z-index: 1;
+    }
+
+    .easyDesigModalClose,
+    .easyDesigModalCoverClose{
+        opacity:0;
+        z-index: -1;
+    }
+    .easyDesigModalOpen,
+    .easyDesigModalCoverOpen,
+    .easyDesigModalClose,
+    .easyDesigModalCoverClose{
+        transition: opacity .5s;
+    }
+
+    #easyDesigModalCover{
+        width:100vw;
+        height:100vh;
+    }
+    #easyDesigModal{
+        width:80%;
+        display:inline-block;
+    }
+    #easyDesigModalInner{
+        width:80%;
+        margin:0 auto;
+        display: inline-block;
+        padding:1rem;
+    }
+    #easyDesigModalCover{
+        background:rgb(0, 0, 0, .3);
+    }
+    #easyDesigModalInner{
+        background:#ffff;
+    }
+</style>
